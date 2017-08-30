@@ -4,4 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/sacred/sepolicy/qcom
+    device/sacred/sepolicy/qcom/common \
+    device/sacred/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
